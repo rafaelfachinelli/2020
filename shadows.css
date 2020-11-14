@@ -1,0 +1,47 @@
+.sky::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: opacity 0.2s linear;
+
+  background:rgba(19, 15, 64, .7);
+  opacity: 0;
+  animation: skyShadow 12s linear 6s alternate infinite;
+}
+
+.earth::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: opacity 0.2s linear;
+
+  background: rgba(0, 0, 0, .7);
+  opacity: 0;
+  animation: earthShadow 12s linear 6s alternate infinite;
+}
+
+@keyframes earthShadow {
+  0% {
+    opacity: 1;
+    z-index: 100;
+  }
+
+  100% {
+    opacity: 0;
+    z-index: 100;
+  }
+}
+
+@keyframes skyShadow {
+  0% {
+    opacity: 1;
+    z-index: 98;
+  }
+
+  100% {
+    opacity: 0;
+    z-index: 98;
+  }
+}

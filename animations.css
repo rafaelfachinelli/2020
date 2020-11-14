@@ -1,0 +1,29 @@
+@keyframes sunmove {
+  from { 
+    transform: rotate(0deg) translateX(40vw) rotate(0deg); 
+  }
+  
+  to { 
+    transform: rotate(360deg) translateX(40vw) rotate(-360deg);
+  }
+}
+
+@keyframes moonmove {
+  from { 
+    transform: rotate(0deg) translateX(40vw) rotate(0deg); 
+  }
+  
+  to { 
+    transform: rotate(360deg) translateX(40vw) rotate(-360deg);
+  }
+}
+
+@keyframes notice {
+  from { opacity: 1;}
+  to { opacity: 0;}
+}
+
+@keyframes noticeMove {
+  from { transform: scale(1.2);}
+  to { transform: scale(1);}
+}
