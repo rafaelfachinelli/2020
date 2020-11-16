@@ -63,7 +63,7 @@
   from {
     filter: brightness(100%);
   }
-
+  
   to {
     filter: brightness(30%);
   }
