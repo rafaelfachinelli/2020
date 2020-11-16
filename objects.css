@@ -45,7 +45,7 @@
   bottom: 0;
   z-index: 99;
 
-  background: #6ab04c;
+  background-image: url('./images/grass.jpg');
 }
 
 .house {
