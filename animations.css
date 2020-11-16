@@ -12,7 +12,7 @@
   from { 
     transform: rotate(0deg) translateX(80vh) rotate(0deg); 
   }
-  
+
   to { 
     transform: rotate(360deg) translateX(80vh) rotate(-360deg);
   }

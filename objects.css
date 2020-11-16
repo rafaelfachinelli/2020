@@ -45,7 +45,7 @@
   bottom: 0;
   z-index: 99;
 
-  background-image: url('./images/grass.jpg');
+  background-image: url('./images/textures/grass.jpg');
 }
 
 .house {
@@ -117,4 +117,13 @@
   background-color: #CFD8DC;
   border: 5px solid #8D6E63;
   border-radius: .2rem;
+}
+
+.thais {
+  position: relative;
+}
+
+.thais img {
+  width: 2rem;
+  height: 1rem;
 }
