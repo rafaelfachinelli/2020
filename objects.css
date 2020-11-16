@@ -142,6 +142,6 @@
   z-index: 101;
 
   animation: 
-    thaisRunning 10s linear infinite,
-    thaisShadow 10s linear infinite alternate;
+    thaisRunning 12s linear infinite,
+    thaisShadow 12s 13s linear infinite alternate;
 }
