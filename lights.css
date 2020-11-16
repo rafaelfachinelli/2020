@@ -1,0 +1,30 @@
+.house__window::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  
+  background-color: #CFD8DC;
+
+  animation: light 12s linear 16s alternate infinite;
+}
+
+.house__wallLight::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all .2s;
+  
+  background-color: #CFD8DC;
+  border-radius: 100%;
+
+  animation: light 12s linear 16s alternate infinite;
+}
+
+@keyframes light {
+  to {
+    box-shadow: 0 0 30px 10px rgba(223, 230, 233, .7);
+    z-index: 101;
+  }
+}
