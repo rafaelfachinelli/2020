@@ -27,3 +27,13 @@
   from { transform: scale(1.2);}
   to { transform: scale(1);}
 }
+
+@keyframes thaisRunning {
+  0% {
+    transform: scaleX(-1) translateX(50px);
+  }
+
+  100% {
+    transform: scaleX(-1) translateX(-100vw);
+  }
+}

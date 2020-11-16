@@ -58,3 +58,13 @@
     z-index: 98;
   }
 }
+
+@keyframes thaisShadow {
+  from {
+    filter: brightness(100%);
+  }
+
+  to {
+    filter: brightness(30%);
+  }
+}

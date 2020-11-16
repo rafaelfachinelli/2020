@@ -48,6 +48,17 @@
   background-image: url('./images/textures/grass.jpg');
 }
 
+.road {
+  width: 100vw;
+  height: 15vh;
+  position: absolute;
+  bottom: 5vh;
+
+  background-color: #2d3436;
+  border-top: 4vh solid #636e72;
+  border-bottom: 4vh solid #636e72;
+}
+
 .house {
   width: 20vw;
   height: 25vh;
@@ -115,15 +126,22 @@
   position: relative;
   
   background-color: #CFD8DC;
-  border: 5px solid #8D6E63;
+  border: 5px solid #795548;
   border-radius: .2rem;
 }
 
 .thais {
   position: relative;
+  bottom: 22vh;
 }
 
 .thais img {
-  width: 2rem;
-  height: 1rem;
+  width: 5vw;
+  height: 10vh;
+  position: absolute;
+  z-index: 101;
+
+  animation: 
+    thaisRunning 10s linear infinite,
+    thaisShadow 10s linear infinite alternate;
 }
