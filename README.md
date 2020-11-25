@@ -23,7 +23,7 @@
 ---
 ## :movie_camera: **Demonstração**
 
-<p align="center"><b> :computer::iphone: WEB RESPONSIVO </b>
+<p align="center"><b> :computer: WEB </b>
 
 <p align="center">
   <kbd><img alt="2020" src="./.github/desktop_demo.png"/></kbd>
