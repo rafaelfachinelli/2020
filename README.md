@@ -12,13 +12,22 @@
 <p>
 
 <p align="center">
+ <a href="#movie_camera-demonstração">Demonstração</a> •
  <a href="#computer-sobre">Sobre</a> •
  <a href="#memo-roteiro">Roteiro</a> •
- <a href="#movie_camera-demonstração">Demonstração</a> •
  <a href="#hammer-tecnologias">Tecnologias</a> •
  <a href="#boy-autor">Autor</a> •
  <a href="#page_facing_up-licença">Licença</a>
 </p>
+
+---
+## :movie_camera: **Demonstração**
+
+<p align="center"><b> :computer::iphone: WEB RESPONSIVO </b>
+
+<p align="center">
+  <kbd><img alt="2020" src="./.github/desktop_demo.png"/></kbd>
+<p>
 
 ---
 ## :computer: Sobre
@@ -38,15 +47,6 @@
 
 </details>
 </div>
-
----
-## :movie_camera: **Demonstração**
-
-<p align="center"><b> :computer::iphone: WEB RESPONSIVO </b>
-
-<p align="center">
-  <kbd><img alt="2020" src="./.github/desktop_demo.png"/></kbd>
-<p>
 
 ---
 ## :hammer: **Tecnologias**
