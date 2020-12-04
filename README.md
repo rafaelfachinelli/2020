@@ -32,7 +32,7 @@
 ---
 ## :computer: Sobre
 
-...
+Projeto de treino com animações puramente no CSS3. Desenvolvimento de sincronismo e timers para animar elementos HTML.
 
 ---
 ## :memo: **Roteiro**
